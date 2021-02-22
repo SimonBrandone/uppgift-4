@@ -50,8 +50,62 @@ h6 {
 
 .text {
   border-bottom: 1px solid white;
-  width: 190px;
+  width: auto;
 }
+
+.info-h1 {
+  font-size: 35px;
+  line-height: 41px;
+  color: #F56B9A;
+}
+
+.price-footer {
+  margin-top: 96px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.order-btn {
+  margin-top: 45px;
+  width: 310px;
+  height: 60px;
+  color: white;
+  font-size: 25px;
+  background: #37AEAB;
+  border-radius: 3px;
+}
+
+.price-text {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.info {
+  text-align: center;
+}
+
+.time-date {
+  color: #37AEAB;
+}
+
+.display-text {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.back {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+}
+
+
 
 .box {
   text-align: center;
@@ -63,7 +117,7 @@ h6 {
 
 .ticket {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   padding-left: 32px;
 
 }
@@ -82,4 +136,57 @@ h6 {
 }
 
 
+.bought-span {
+  font-size: 35px;
+  line-height: 41px;
+  color: #F56B9A;
+}
 
+.receipt-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.receipt {
+  width: 311px;
+  height: 270px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.34);
+  border-radius: 3px;
+  color: black;
+}
+
+.what {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+}
+
+.rec-name {
+  font-size: 26px;
+  line-height: 30px;
+  color: #F56B9A;
+}
+
+.where {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.rec-place {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.bot-rec {
+  border-top: 1px dashed rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.06);
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 5px;
+}
